@@ -36,8 +36,6 @@ set $right semicolon
 set $sup Mod1
 set $mod Mod4
 
-bindsym $sup+b exec chromium
-
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -174,9 +172,8 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Shift+s exec deepin-screenshot
 
 exec --no-startup-id hsetroot -solid '#242424' &
-exec $HOME/.config/reload.sh &
+exec --no-startup-id polybar gruvbox &
 exec --no-startup-id compton -b &
-bindsym $mod+Shift+t exec --no-startup-id $HOME/.config/reload.sh
 
 new_window 1pixel
 

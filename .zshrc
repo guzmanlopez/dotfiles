@@ -91,10 +91,6 @@ alias ...="cd ../../"
 alias ....="cd ../../../"
 alias lock="i3lock-fancy -f Fantasque-Sans-Mono-Regular"
 
-alias code="code-oss"
-alias sa="subl -a"
-alias sd="subl -a ."
-
 alias term="urxvt -e zsh"
 
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
@@ -119,3 +115,13 @@ export PATH="$PATH:/home/bennett/.cargo/bin"
 stty -ixon
 
 export CHROME_BIN=chromium
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+. ~/git/z/z.sh
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+
