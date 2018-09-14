@@ -9,7 +9,7 @@
 
 URxvt.scrollBar: false
 URxvt.trasparent: false
-#define fonts xft:Fantasque Sans Mono:size=11,\
+#define fonts xft:Fantasque Sans Mono:size=9,\
 		xft:Pomodoro:style=Regular,\
 		xft:DeJaVuSansMono Nerd Font Mono:style=Regular
 		
@@ -78,7 +78,7 @@ URxvt.color250: #d5c4a1
 
 
 rofi.color-enabled: true
-rofi.font:Fantasque\ Sans\ Mono 11
+rofi.font:Fantasque\ Sans\ Mono 18
 !                  bg       border   separator
 rofi.color-window: argb:EE282828, #282828, #282828
 
